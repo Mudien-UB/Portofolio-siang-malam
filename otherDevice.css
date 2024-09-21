@@ -1,0 +1,221 @@
+@media (max-width: 1025px) {
+    header{
+        nav{
+            ul{
+                a{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    main{
+        #home{
+            a{
+                font-size: 16px;
+            }
+        }
+        #about{
+            .about-text{
+                flex-direction: column;
+            }
+        }
+    }
+}
+@media (max-width: 769px) {
+    header nav {
+        h2{
+            display: none;
+        }
+    }
+
+    main{
+        align-items: center;
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #about{
+            font-size: 14px;
+
+            img{
+                width: 180px;
+            }
+
+            .about-skill{
+                figure{
+                    gap: 10px;
+                }
+            }
+        }
+        #Portofolio{
+            .projek-card{
+                width: calc(50% + 100px);
+                .item{
+                    margin: 0;
+                    width: 120px;
+
+                    h4, a{
+                        display: block;
+                        font-size: 10px;
+
+                    }
+                    img{
+                        filter: brightness(70%);
+                    }
+                }
+            }
+        }
+        #kontak{
+            form{
+                scale: 0.8;
+            }
+        }
+
+    }
+
+    footer{
+        .sosial-media{
+            h3{
+                font-size: 18px;
+            }
+            .logo-sosial{
+                scale: 0.8;
+            }
+        }
+    }
+}
+
+@media (max-width: 445px){
+    header{
+        nav{
+             ul{
+                gap: 10px;
+                margin: 0;
+                padding: 0;
+
+                a{
+                    font-size: 12px;
+                    font-weight: 800;
+                }
+             }
+
+            .toogle-container{
+                label{
+                    top: 7px;
+                    left: 20px;
+                    scale: 0.8;
+                }
+            }
+        }
+    }
+    main{
+        #home{
+            h2{
+                font-size: 30px;
+            }
+            h4{
+                font-size: 16px;
+            }
+            p{
+                font-size: 11px;
+            }
+            a{
+                font-size: 14px
+            }
+        }
+
+        #about{
+
+            .about-text{
+                padding: 20px 30px;
+
+                *{
+                    margin: 10px;
+                }
+                img{
+                    scale: 0.7;
+                }
+                .text{
+                    h2{
+                        font-size: 21px;
+                    }
+                    p{
+                        width: 200px;
+                        font-size: 12px;
+                        text-indent: 1rem;
+                    }
+                }
+            }
+            .about-skill{
+                font-size: 12px;
+
+                h2{
+                    font-size: 21px;
+                }
+                figure{
+                    
+                    img{
+                        width: 30px;
+                    } 
+                }
+
+            }
+        }
+
+        #Portofolio{
+
+            h2{
+                font-size: 18px;
+            }
+            .projek-card{
+                width: calc(50% + 100px);
+                height: max-content;
+                *{
+                    margin: 10px;
+                }
+                .item{
+                   width: 100px; 
+                
+                    h4{
+                        font-size: 9px;
+                    }
+                    a{
+                        font-size: 9px;
+                    }
+
+                }
+
+            }
+        }
+
+        #kontak{
+            form{
+                scale: 0.65;
+            }
+        }
+    }
+    
+}
+
+@media (max-width:376px){
+
+    main{
+        #kontak{
+            height: fit-content;
+            form{
+                scale: 0.58;
+            }
+        }
+    }
+    
+    footer{
+        .sosial-media{
+            h3{
+                font-size: 16px;
+            }
+            .logo-sosial{
+                scale: 0.75;
+            }
+        }
+    }
+}

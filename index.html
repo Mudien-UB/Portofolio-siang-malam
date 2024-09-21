@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubay Lahmudien</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
+    
+    <link rel="stylesheet" href="assets/font/font.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="otherDevice.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h2>Ubey</h2>
+            
+            <ul>
+                <a href="#home">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#sosial-media">CONTACT</a>
+                <div class="toogle-container">
+                    <input type="checkbox" id="darkmode-toggle" />
+                    <label for="darkmode-toggle"></label>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home">
+            <h2>Ubey</h2>
+            <h4>Hi! Ubay Lahmudien Here</h4>
+            <p>Designer and Fullstack Developer From Village</p>
+            <a href="./assets/cv fix.pdf" download>Download CV</a>
+        </section>
+
+        <section id="about">
+            <article class="about-text" id="about-text">
+                <img src="./assets/img/DSC01312.JPG" alt="me">
+                <div class="text">
+                    <h2>About Me:</h2>
+                    <p>Hi, I'm Ubay Lahmudien Maghfirly, a programmer and designer. I have a strong passion for software development and visual design. With experience in various programming languages and UI/UX design skills, I strive to create digital solutions that are both creative and functional.  I’m always excited to collaborate on interesting projects that sharpen my skills and make a positive impact.</p>
+                </div>
+            </article>
+            <article class="about-skill">
+                <h2>Skill:</h2>
+                <div>
+                    <p>My skill set seamlessly blends creative design with technical system. I am passionate about leveraging this unique blend to create innovative digital solutions that not only captivate but also deliver outstanding user experiences.</p>
+                    <p>My toolkit which fuels both my creativity and technical acumen, includes:</p>
+                </div>
+                <figure> 
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />   
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" style="scale: 1.5;"/>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" style="scale: 1.45;"/>  
+
+                </figure>
+            </article>
+        </section>
+
+        <section id="Portofolio">
+            <h2>My Recent Project :</h2>
+            <div class="projek-card">
+                <div class="item">
+                    <img src="./assets/img/tictactoe.png" alt="tictactoe-games" onclick="window.open('https://tictactoe-games-nine.vercel.app/', '_blank')">
+                    <h4>TIC-TAC-TOE GAME</h4>
+                    <a href="https://github.com/Mudien-UB/tictactoe-games" target="_blank">see source code...</a>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/web.png" alt="training" onclick="window.open('https://portfolioubey.vercel.app/', '_blank')">
+                    <h4>Portfolio training</h4>
+                    <a href="https://github.com/Mudien-UB/portofolio-2" target="_blank">see source code...</a>
+                </div>
+                <div class="item">
+                    <img src="" alt="none" onclick="window.open('error.html', '_blank')">
+                    <h4>ERROR</h4>
+                    <a href="error.html" target="_blank">doesnt connect</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="kontak">
+            <form action="https://formspree.io/f/mblrenrr" method="post" target="_blank">
+                <h3>SEND ME :</h3>
+                <label for="nama">Nama</label>
+                <input type="text" id="nama"><br>
+                <label for="email">Email</label>
+                <input type="email" id="email"><br>
+                <label for="pesan">Message</label>
+                <textarea name="pesan" id="pesan"></textarea><br>
+                <input type="submit" placeholder="submit" class="submit">
+            </form>
+            
+        </section>
+    </main>
+
+    <footer onclick="backhome()">
+        <div class="sosial-media" id="sosial-media">
+            <h3>My Sosial Media</h3>
+            <div class="logo-sosial">
+                <a class="item-sosial" href="https://github.com/Mudien-UB" target="_blank">     
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" style="filter: brightness(100);" alt="github" />
+                </a>
+                <a class="item-sosial" href="https://www.linkedin.com/in/ubay-lahmudien-mudienub075/" target="_blank">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" alt="linkedin"/>
+                </a>
+                <a class="item-sosial" href="https://www.tiktok.com/@mudien_cc" target="_blank">
+                    <img src="./assets/img/tiktok.png" alt="tiktok" style="scale: 1.3;">
+                </a>
+                <a class="item-sosial" href="https://www.instagram.com/mudien_ub/" target="_blank">
+                    <img src="./assets/img/insta.png" alt="instagram" style="scale: 1.5;"/>
+                </a>
+                <a class="item-sosial" href="https://wa.me/6285808806138" target="_blank">
+                    <img src="./assets/img/wa.png" alt="wa"/>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="main.js"></script>
+
+</body>
+</html>
